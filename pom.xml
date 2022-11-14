@@ -9,7 +9,60 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.test.failure.ignore>true</maven.test.failure.ignore>
+        <swt.version>3.120.0</swt.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- junit 5, unit test -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>[5.3.1,)</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.platform</groupId>
+            <artifactId>org.eclipse.swt</artifactId>
+            <version>[${swt.version},)</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.eclipse.platform</groupId>
+                    <artifactId>org.eclipse.swt.gtk.linux.aarch64</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.eclipse.platform</groupId>
+                    <artifactId>org.eclipse.swt.gtk.linux.arm</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.platform</groupId>
+            <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+            <version>[${swt.version},)</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.eclipse.platform</groupId>
+                    <artifactId>org.eclipse.swt.gtk.linux.aarch64</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.eclipse.platform</groupId>
+                    <artifactId>org.eclipse.swt.gtk.linux.arm</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
