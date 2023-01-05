@@ -1,7 +1,7 @@
-package de.metux.bindings.xlib;
+package net.metux.bindings.xlib;
 
-import de.metux.bindings.xlib.lowlevel.CPointer;
-import de.metux.bindings.xlib.lowlevel.Xlib;
+import net.metux.bindings.xlib.lowlevel.CPointer;
+import net.metux.bindings.xlib.lowlevel.Xlib;
 
 public class XDisplay
 {

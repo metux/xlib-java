@@ -1,5 +1,5 @@
 
-package de.metux.bindings.xlib;
+package net.metux.bindings.xlib;
 
 public class XAtom
 {

@@ -1,5 +1,4 @@
-
-package de.metux.bindings.xlib.lowlevel;
+package net.metux.bindings.xlib.lowlevel;
 
 public class Xlib
 {

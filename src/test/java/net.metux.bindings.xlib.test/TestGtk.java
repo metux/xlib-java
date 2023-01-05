@@ -2,9 +2,9 @@ package de.metux.bindings.xlib.test;
 
 import org.junit.jupiter.api.Test;
 
-import de.metux.bindings.xlib.XDisplay;
-import de.metux.bindings.xlib.XAtom;
-import de.metux.bindings.xlib.XWindow;
+import net.metux.bindings.xlib.XDisplay;
+import net.metux.bindings.xlib.XAtom;
+import net.metux.bindings.xlib.XWindow;
 
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.Display;

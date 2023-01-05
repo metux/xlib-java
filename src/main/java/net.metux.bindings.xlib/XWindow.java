@@ -1,8 +1,8 @@
 
-package de.metux.bindings.xlib;
+package net.metux.bindings.xlib;
 
-import de.metux.bindings.xlib.lowlevel.Xlib;
-import de.metux.bindings.xlib.XAtom;
+import net.metux.bindings.xlib.lowlevel.Xlib;
+import net.metux.bindings.xlib.XAtom;
 
 public class XWindow
 {
