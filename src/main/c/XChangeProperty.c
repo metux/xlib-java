@@ -5,16 +5,16 @@
 #include <string.h>
 #include <alloca.h>
 
-#include "de_metux_bindings_xlib_lowlevel_Xlib.h"
+#include "net_metux_bindings_xlib_lowlevel_Xlib.h"
 #include "jni_util.h"
 #include "typeconv.h"
 
 /*
- * Class:     de_metux_bindings_xlib_lowlevel_Xlib
+ * Class:     net_metux_bindings_xlib_lowlevel_Xlib
  * Method:    XChangeProperty_str
  * Signature: (JIILjava/lang/String;)I
  */
-JNIEXPORT jint JNICALL Java_de_metux_bindings_xlib_lowlevel_Xlib_XChangeProperty_1str
+JNIEXPORT jint JNICALL Java_net_metux_bindings_xlib_lowlevel_Xlib_XChangeProperty_1str
   (JNIEnv *env, jclass clazz, jlong x_display, jint window_id, jint atom_id, jstring value)
 {
     jint ret = -BadAccess;
@@ -32,11 +32,11 @@ out:
 }
 
 /*
- * Class:     de_metux_bindings_xlib_lowlevel_Xlib
+ * Class:     net_metux_bindings_xlib_lowlevel_Xlib
  * Method:    XChangeProperty_cardlist
  * Signature: (JII[I)I
  */
-JNIEXPORT jint JNICALL Java_de_metux_bindings_xlib_lowlevel_Xlib_XChangeProperty_1cards
+JNIEXPORT jint JNICALL Java_net_metux_bindings_xlib_lowlevel_Xlib_XChangeProperty_1cards
   (JNIEnv *env, jclass clazz, jlong x_display, jint window_id, jint atom_id,
    jintArray cards)
 {

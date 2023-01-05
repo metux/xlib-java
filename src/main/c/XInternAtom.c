@@ -2,16 +2,16 @@
 #include <X11/Xlib.h>
 #include <jni.h>
 
-#include "de_metux_bindings_xlib_lowlevel_Xlib.h"
+#include "net_metux_bindings_xlib_lowlevel_Xlib.h"
 #include "jni_util.h"
 #include "typeconv.h"
 
 /*
- * Class:     de_metux_bindings_xlib_lowlevel_Xlib
+ * Class:     net_metux_bindings_xlib_lowlevel_Xlib
  * Method:    XInternAtom
  * Signature: (JLjava/lang/String;Z)I
  */
-JNIEXPORT jint JNICALL Java_de_metux_bindings_xlib_lowlevel_Xlib_XInternAtom
+JNIEXPORT jint JNICALL Java_net_metux_bindings_xlib_lowlevel_Xlib_XInternAtom
   (JNIEnv *env, jclass clazz, jlong x_display, jstring atom_name,
    jboolean only_if_exists)
 {

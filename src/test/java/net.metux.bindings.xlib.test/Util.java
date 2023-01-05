@@ -1,4 +1,4 @@
-package de.metux.bindings.xlib.test;
+package net.metux.bindings.xlib.test;
 
 import java.lang.reflect.Method;
 

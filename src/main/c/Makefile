@@ -5,7 +5,7 @@ JNI_LIBDIR=$(TOPDIR)/target/lib
 LIBNAME=$(JNI_LIBDIR)/libjni_xlib.so
 SOURCES = XInternAtom.c XChangeProperty.c XDeleteProperty.c XSetClassHint.c
 
-JNI_PACKAGE_NAME = de.metux.bindings.xlib.lowlevel
+JNI_PACKAGE_NAME = net.metux.bindings.xlib.lowlevel
 
 JNI_PACKAGE_DIR = $(subst .,/,$(JNI_PACKAGE_NAME))
 

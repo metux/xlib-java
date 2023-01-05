@@ -1,8 +1,8 @@
-package de.metux.bindings.xlib.test;
+package net.metux.bindings.xlib.test;
 
-import de.metux.bindings.xlib.lowlevel.CPointer;
-import de.metux.bindings.xlib.XDisplay;
-import de.metux.bindings.xlib.XWindow;
+import net.metux.bindings.xlib.lowlevel.CPointer;
+import net.metux.bindings.xlib.XDisplay;
+import net.metux.bindings.xlib.XWindow;
 
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.internal.gtk.GTK;
