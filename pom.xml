@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.metux.bindings</groupId>
-    <artifactId>xlib-java</artifactId>
+    <artifactId>xlib</artifactId>
     <version>0.1-SNAPSHOT</version>
 
     <properties>
