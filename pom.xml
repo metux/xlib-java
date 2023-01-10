@@ -4,7 +4,7 @@
 
     <groupId>net.metux.bindings</groupId>
     <artifactId>xlib</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1.1</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
